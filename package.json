@@ -1,5 +1,5 @@
 {
-	"main": "index.html",
+    "main":"app://your_app/index.html",
 	"name": "NW Desktop Notifications Demo",
 	"description": "A demo of desktop notifications",
 	"version": "0.1",

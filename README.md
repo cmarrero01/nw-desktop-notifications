@@ -5,7 +5,13 @@ A simple system for creating desktop notifications for [node-webkit](https://git
 
 ##Usage
 
-By including nw-desktop-notifications.js and nw-desktop-notifications.html in your project you can create desktop notifications for your application by calling:
+You need to change the line 34 with the name of your app:
+
+    'app://your_app/notifications.html'
+
+This is the path for the html of your notification.
+
+By including notifications.js and notifications.html in your project you can create desktop notifications for your application by calling:
 
 	window.LOCAL_NW.desktopNotifications.notify(iconUrl, title, content, clickHandlerCallback);
 
@@ -31,4 +37,4 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 
 ##Update the Look-and-Feel
 
-You can update the look and feel of the desktop notifications by updating the css embedded (via style tag) in nw-desktop-notifications.html.
+You can update the look and feel of the desktop notifications by updating the css embedded (via style tag) in notifications.html.
